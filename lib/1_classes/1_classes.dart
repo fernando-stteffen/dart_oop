@@ -6,6 +6,9 @@ void main() {
   shirtNike.brand = 'Nike';
   shirtNike.size = 'XXL';
 
+  print(Shirt.name);
+  print(Shirt.recoveryName());
+
   print('''
       Shirt monted is:
       - color: ${shirtNike.color}
